@@ -1,0 +1,490 @@
+#titlediv .inside p.description {
+    margin: 8px 2px 0;
+}
+
+#titlediv .inside p.description label {
+    cursor: pointer;
+}
+
+span.shortcode {
+    display: block;
+    margin: 2px 0;
+}
+
+span.shortcode.old {
+    background: #777;
+    color: #fff;
+}
+
+span.shortcode > input {
+    background: inherit;
+    color: inherit;
+    font-size: 12px;
+    border: none;
+    box-shadow: none;
+    padding: 4px 8px;
+    margin: 0;
+}
+
+#submitpost input.copy {
+    margin-bottom: 10px;
+}
+
+#submitpost input.delete {
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    background: inherit;
+    color: #a00;
+}
+
+#submitpost input.delete:hover {
+    color: #f00;
+}
+
+#submitpost input.delete:focus {
+    outline: thin dotted;
+}
+
+.postbox-container .postbox h3 {
+    border-bottom: 1px solid transparent;
+}
+
+.keyboard-interaction {
+    visibility: hidden;
+    color: #23282d;
+}
+
+div.config-error, span.config-error, ul.config-error {
+    color: #444;
+    font-style: normal;
+    font-size: 13px;
+}
+
+ul.config-error {
+    margin: 2px 0;
+}
+
+ul.config-error li {
+    list-style: none;
+    padding: 2px 2px;
+    margin: 0;
+}
+
+div.config-error span.dashicons,
+ul.config-error li span.dashicons {
+    color: #82878c;
+}
+
+[data-config-field][aria-invalid="true"] {
+    border-color: #d00;
+}
+
+/*
+ * Tabs
+ */
+/* Style the tab */
+#contact-form-editor-tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+#contact-form-editor-tabs button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+#contact-form-editor-tabs button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+#contact-form-editor-tabs button.cfractivetab {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.contact-form-editor-tabcontent {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.contact-form-editor-tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/*
+ * Form Tab
+ */
+.tag-gen-div {
+    clear: both;
+}
+
+#tag-generator-list a.button {
+    font-size: 12px;
+    height: 26px;
+    line-height: 24px;
+    margin: 2px;
+    padding: 0 8px 1px;
+}
+
+.cfrtaginfo {
+    border: 1px solid #dfdfdf;
+    border-left: 4px solid #00a0d2;
+    background: #f7fcfe;
+    padding: 4px 12px;
+    margin: 4px 0 1.4em 0;
+    line-height: 1.4em;
+    width: 95%;
+    font-size: medium;
+}
+
+.tag-generator-panel p {
+    font-size: medium;
+}
+
+.tag-generator-panel .control-box textarea {
+    height: 12em;
+    width: 100%;
+}
+
+/* Information Links */
+.tag-generator-panel .control-box .cfrinfo {
+    display: inline-block;
+    margin-left: 1em;
+    background-color: #66b3ff;
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 12px;
+    color: white;
+}
+
+.tag-generator-panel .control-box .cfrinfopopup {
+    display: none;
+    font-size: medium;
+}
+/* End Information Links */
+
+.tag-generator-panel .insert-box {
+    border-top: 1px solid slategray;
+    padding-top: 1em;
+}
+
+.tag-generator-panel .insert-box input.tag {
+    width: 100%;
+    max-width: 480px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.tag-generator-panel .insert-box .submitbox {
+    padding: 2px 4px;
+}
+
+.tag-generator-panel .insert-box .submitbox input[type="button"] {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .tag-generator-panel .insert-box .submitbox input[type="button"] {
+        margin-top: 1em;
+    }   
+}
+
+.tag-generator-panel .insert-box .description {
+    margin-top: 1em;
+}
+
+.tag-generator-panel .insert-box .description label {
+    cursor: text;
+    font-size: medium;
+}
+
+/*
+ * Mail Tab
+ */
+.contact-form-editor-box-mail span.mailtag {
+    display: inline-block;
+    margin: 0 0 0 4px;
+    padding: 1px 2px;
+    cursor: pointer;
+    color: #000;
+}
+
+.contact-form-editor-box-mail span.mailtag.used {
+    color: #666;
+}
+
+.contact-form-editor-box-mail span.mailtag.unused {
+    font-weight: bold;
+}
+
+/*
+ * Messages Tab
+ */
+#messages-panel p.description {
+    margin: 5px 0 10px;
+}
+
+/*
+ * List Table
+ */
+.fixed .column-title {
+    width: 38%;
+}
+
+.fixed .column-shortcode {
+    width: 38%;
+}
+
+.wp-list-table .config-error span.dashicons-warning {
+    color: #ca4a1f;
+}
+
+/*
+ * Welcome Panel
+ */
+.cfr-welcome-panel {
+    background-color: #ffffff;
+    border: 1px solid #2271b1;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em 0 1.5em 0;
+}
+
+.cfr-welcome-panel h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2.1em;
+    margin: 1em 0 1.2em;
+    clear: both;
+}
+
+.cfr-welcome-panel h3 .dashicons {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    width: 60px;
+    color: #575757;
+    font-size: 40px;
+}
+
+.cfr-welcome-panel p a {
+    font-weight: bold;
+}
+
+.cfr-welcome-panel-close {
+    float: right;
+}
+
+@media (max-width: 860px) {
+    .cfr-welcome-panel-close {
+        margin-bottom: 1.2em;
+    }   
+}
+/*
+ * Integration
+ */
+.card {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-left: 4px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin-top: 20px;
+    max-width: 520px;
+    min-width: 255px;
+    padding: 0.7em 2em 1em;
+    position: relative;
+}
+
+.card.active {
+    border-color: #00a0d2;
+}
+
+.card img.icon {
+    float: left;
+    margin: 8px 8px 8px -8px;
+}
+
+.card h2.title {
+    float: left;
+    max-width: 240px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.card .infobox {
+    float: right;
+    font-size: 13px;
+    color: #666;
+    margin: 2px 0 5px;
+    line-height: 1.5;
+    max-width: 240px;
+}
+
+.card .inside .form-table th {
+    padding: 15px 10px 15px 0;
+    width: 160px;
+}
+
+.card .inside .form-table td {
+    padding: 10px 10px;
+}
+
+/* ------------------ Input Groups ----------------- */
+.inputgroup {
+    border-spacing: 1.2em;
+}
+
+div.inputrow {
+    display: table-row;
+}
+
+div.inputrow label {
+    display: table-cell;
+    text-align: right;
+}    
+
+div.inputrow input {
+    display: table-cell;
+}
+
+@media only screen and (max-width: 1080px) {
+    div.inputrow:not(.xmedia) {
+        display: block;
+        margin-bottom: 25px;
+    }
+    
+    div.inputrow:not(.xmedia) label {
+        display: block;
+        text-align: left;
+    }
+}
+/* -------------- End Input Groups ----------------- */
+
+/* Modal Box */
+/* The Modal (background) */
+.cfrmodaldiv {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 20000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.cfrmodalcontainer {
+  background-color: #fefefe;
+  margin: 10% auto; /* 10 from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.cfrmodalcontent {
+    font-size: medium !important;
+}
+
+/* The Close Button */
+.cfrclose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cfrclose:hover, .cfrclose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* End Modal Box */
+
+/* Toggle Switches */
+.switch {
+  position: relative;
+  display: inline-block !important;
+  width: 40px;
+  height: 20px;
+  vertical-align: bottom;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* End Toggle Switches */
